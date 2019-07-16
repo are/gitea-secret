@@ -1,0 +1,19 @@
+{
+  "name": "gitea-secret",
+  "version": "1.0.0",
+  "description": "simple gitea secrets tool",
+  "main": "src/index.js",
+  "bin": {
+    "gitea-secret": "./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/are1000/gitea-secret.git"
+  },
+  "author": "Artur Wojciechowski <me@iama.re>",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^2.20.0",
+    "node-fetch": "^2.6.0"
+  }
+}
